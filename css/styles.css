@@ -820,8 +820,10 @@ body {
   pointer-events: none;
 }
 
+/* Modal form style */
+
 .data {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -831,14 +833,12 @@ body {
   margin-bottom: 12px;
 }
 
-/* Modal form style */
-
 .modal-form {
   display: flex;
   flex-direction: column;
 }
 .modal-form-fild {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -936,6 +936,9 @@ body {
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url("../images/icon/icon_check.svg");
+  width: 17px;
+  height: 17px;
+  background-color: #2196f3;
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   border: 0.2px solid #2196f3;
