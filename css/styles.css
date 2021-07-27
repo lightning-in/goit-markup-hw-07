@@ -880,7 +880,7 @@ body {
 }
 
 .modal-form-message::placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -919,7 +919,12 @@ body {
 .modal-form-checkbox-label {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .modal-form-checkbox-label::before {
   content: "";
