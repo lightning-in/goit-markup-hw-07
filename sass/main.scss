@@ -1,4 +1,5 @@
-@import @import url(./base/_base.scss);
-@import url(./base/_container.scss);
-@import url(./utils/_visually-hidden.scss);
-@import url(./components/_modal-btn.scss);
+@import "./utils/variables.scss";
+@import "./base/_base.scss";
+@import "./base/_container.scss";
+@import "./utils/_visually-hidden.scss";
+@import "./components/_modal-btn.scss";
