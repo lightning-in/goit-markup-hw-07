@@ -141,9 +141,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.comande-icons:hover,
-.comande-icons:focus {
+.comande-icons:hover, .comande-icons:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -166,14 +164,12 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.logo:hover, .logo:focus {
+  color: var(--color-logo);
+}
 
 .logo-margin {
   margin-right: 93px;
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--color-logo);
 }
 
 .web-logo {
@@ -221,17 +217,12 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.menu-studio:hover,
-.menu-studio:focus,
-.menu-studio:active {
+.menu-studio:hover, .menu-studio:focus, .menu-studio:active {
   color: var(--color-header);
 }
-
 .menu-studio.current {
   color: var(--color-header);
 }
-
 .menu-studio.current::after {
   content: "";
   position: absolute;

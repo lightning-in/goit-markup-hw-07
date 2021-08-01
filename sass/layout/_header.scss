@@ -37,26 +37,25 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-studio:hover,
-.menu-studio:focus,
-.menu-studio:active {
-  color: var(--color-header);
-}
-.menu-studio.current {
-  color: var(--color-header);
-}
-.menu-studio.current::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  left: 0;
-  height: 4px;
-  background-color: var(--color-header);
-  border-radius: 2px;
-  bottom: -39px;
-  box-sizing: border-box;
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--color-header);
+  }
+  &.current {
+    color: var(--color-header);
+  }
+  &.current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 4px;
+    background-color: var(--color-header);
+    border-radius: 2px;
+    bottom: -39px;
+    box-sizing: border-box;
+  }
 }
 
 .contacts-list {

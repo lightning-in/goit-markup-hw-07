@@ -17,13 +17,13 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    background-color: #2196f3;
+  }
 }
 
-.comande-icons:hover,
-.comande-icons:focus {
-  fill: #ffffff;
-  background-color: #2196f3;
-}
 .comande-icon-class {
   width: 20px;
   height: 20px;
