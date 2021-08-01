@@ -44,17 +44,17 @@
   }
   &.current {
     color: var(--color-header);
-  }
-  &.current::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 4px;
-    background-color: var(--color-header);
-    border-radius: 2px;
-    bottom: -39px;
-    box-sizing: border-box;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 4px;
+      background-color: var(--color-header);
+      border-radius: 2px;
+      bottom: -39px;
+      box-sizing: border-box;
+    }
   }
 }
 
